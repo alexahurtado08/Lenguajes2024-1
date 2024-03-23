@@ -89,10 +89,11 @@ public class Main {
                     String[] nuevosNeumaticos = {"Neumático 1", "Neumático 2", "Neumático 3", "Neumático 4"};
 
                     ponerNeumaticos.ponerNeumaticos(neumaticos,  nuevosNeumaticos,pitCrew);
-                    auto1.getTuercas();
-                    tuerca.ponerTuercas(tuercas,pitCrew);
                     ponerNeumaticos.mostrarEstadoNeumaticos(neumaticos);
                     ponerNeumaticos.estadoactual();
+                    auto1.getTuercas();
+                    tuerca.ponerTuercas(tuercas,pitCrew);
+
 
                     gatod.quitarGatod();
                     gatot.quitarGatoT();
@@ -133,10 +134,11 @@ public class Main {
 
                     String[] nuevosNeumaticos2 = {"Neumático 1", "Neumático 2", "Neumático 3", "Neumático 4"};
                     ponerNeumaticos2.ponerNeumaticos(neumaticos2,nuevosNeumaticos2, pitCrew);
-                    auto2.getTuercas();
-                    tuerca2.ponerTuercas(tuercas2,pitCrew);
                     ponerNeumaticos2.mostrarEstadoNeumaticos(neumaticos2);
                     ponerNeumaticos2.estadoactualb();
+                    auto2.getTuercas();
+                    tuerca2.ponerTuercas(tuercas2,pitCrew);
+
 
                     gatod2.quitarGatod();
                     gatot2.quitarGatoT();

@@ -62,16 +62,8 @@ public class PonerNeumaticos extends PitCrewTeam implements TeamDriverA, TeamDri
 
     public void mostrarEstadoNeumaticos(String[] neumaticos) {
         System.out.println("Estado de los neumáticos:");
-        boolean todosOcupados = true;
-        for (int i = 0; i < neumaticos.length; i++) {
-            if (neumaticos[i] == null) {
-                todosOcupados = false;
-                break;
-            }
-        }
-        if (todosOcupados) {
-            System.out.println("El auto ya tiene todos sus neumáticos.");
-        }
+        System.out.println("Los neumaticos han sido puestos.");
+
     }
     @Override
     public void estadoactual(){
